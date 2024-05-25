@@ -1,0 +1,197 @@
+---
+title: "Devika"
+subtitle: "Ingeniera de Software impulsada por IA 🤖"
+title-slide-attributes:
+  data-background-image: /imgs/devika-avatar.png
+  data-background-size: contain
+  data-background-opacity: "0.4"
+author: "Lic. Illak Zapata"
+editor: source
+css: styles.css
+engine: knitr
+format: 
+  revealjs:
+    transition: slide
+    navigation-mode: vertical 
+    slide-number: c/t
+    width: 1600
+    height: 900
+    theme: moon
+    echo: true
+---
+
+## Introducción (antes que nada)
+
+- [Devika](https://github.com/stitionai/devika) es un proyecto que aún está
+en etapa de desarrollo/experimental.
+
+- Esto implica que aún hay muchos "features" que aún funcionan mal o
+se "rompen". Aún así está muy bueno para explorar y usar **a conciencia**.
+
+- Es un proyecto **Open Source**, lo que permite "chusmear" **cómo está implementado** y al mismo tiempo **contribuir** al desarrollo del proyecto.
+
+. . .
+
+pero a todo esto...
+
+. . .
+
+qué es Devika??
+
+![](imgs/comete_la_naranja.jpg){fig-align="center" width="30%"}
+
+
+## Pero... ¿¿¿qué diablos es Devika???🤔
+
+De acuerdo a sus desarrolladores:
+. . .
+
+- Devika es una IA que hace tareas de Ingenieria de Software.
+
+. . .
+
+- Puede entender instrucciones humanas de alto nivel, desglosarlas
+en etapas, investigar y obtener información relevante y finalmente, 
+escribir código para lograr el objetivo inicial.
+
+. . .
+
+- Devika utiliza **modelos LLM**, **algoritmos de planificación y "razonamiento"**
+y la capacidad de **navegar por la web** para desarrollar software de manera
+**inteligente**.
+
+. . .
+
+- Devika apunta a revolucionar la manera en que construímos software al 
+proveer una IA para hacer *pair programming*, que puede realizar
+tareas de codificación complejas con una mínima guía humana.
+
+## ¿Qué tipos de tareas?
+
+Tareas tales como:
+
+- Creación de nuevos features
+- Corregir un bug (fix)
+- Desarrollar un proyecto entero desde la nada misma
+
+Para esto y más, Devika cumple el rol de un "asistente inteligente" 🤖.
+Un asistente que ayude a **maximizar** e impulsar 🚀 las tareas de desarrollo de software.
+
+## ¿Cómo lo hace?
+
+Mediante componentes clave y técnicas que veremos a continuación:
+
+### "Razonamiento" y planificación impulsadas por IA
+
+Emplea algoritmos avanzados de IA para planificar y razonar, desarmando o 
+desglosando objetivos de alto nivel, en pasos realizables o viables.
+El proceso de planificación involucra las siguientes etapas:
+
+- Entendimiento del objetivo
+- Generación/entendimiento del contexto
+- Generación de etapas (o pasos)
+- Refinamiento y Validación
+- Ejecución
+
+El motor de "razonamiento" evalúa constantemente el progreso y va
+realizando ajustes al plan basándose en nueva información y feedback
+recibidos durante la ejecución.
+
+##
+
+### Extracción de palabras clave
+
+Para permitir la búsqueda/investigación focalizada y la obtención
+de información, Devika emplea técnicas de **extracción de palabras clave**.
+Este proceso involucra los siguientes pasos:
+
+- Preprocesamiento
+- Identificación de palabras claves
+- Ranking de palabras clave
+- Selección de palabras clave
+
+Al extraer palabras clave que sean relevantes al contexto, Devika puede
+centrar sus esfuerzos de investigación y obtener/recuperar información
+pertinente para ayudar a completar la tarea.
+
+##
+
+### Interacción con el navegador
+
+Devika incorpora capacidades de interacción con el navegador para navegar
+por sitios web, extraer información e interactuar con elementos de la web.
+El módulo de interacción web utiliza la libreria *Playwright* para automatizar
+interacciones con la web. El proceso involucra los siguientes pasos:
+
+- Navegación
+- Interacción con elementos
+- Análisis de páginas (parsing)
+- Ejecución de *Javascript*
+- Captura de screenshots
+
+El módulo de interacción con el navegador le otorga a Devika la capacidad
+de obtener información de la web, interactuar con recursos online, e 
+incorporar datos en tiempo real a sus procesos de toma de decisión y de
+generación de código.
+
+##
+
+### Escritura de código (coding)
+
+El módulo de escritura de código de Devika genera código basado en el 
+plan, los hallazgos producto de la "investigación" realizada y los
+requerimientos del usuario. El proceso implica los siguientes pasos:
+
+- Selección de lenguaje
+- Generación de la estructura del código
+- Generación de código
+- Formato de código
+- Revisión y refinamiento de código
+
+Las capacidades de escritura de código de Devika le permiten generar
+código **funcional** y **eficiente** en **varios lenguajes de programación**,
+tomando en consideración los requerimientos específicos y el contexto de
+cada proyecto.
+
+
+## Arquitectura del sistema
+
+La arquitectura del sistema de *Devika+ consiste en los siguientes componentes
+principales:
+
+- Interfaz de usuario
+- Agente central o núcleo (componente central)
+- Large Language Models (LLMs)
+- Motor de Planificación y razonamiento
+- Módulo de *research* o investigación
+- Módulo de escritura (o generación) de código
+- Módulo de interacción con el navegador
+- Base de conocimiento
+- Base de datos
+
+## Según el repo de Devika
+
+Key Features
+
+- 🤖 Supports Claude 3, GPT-4, Gemini, Mistral , Groq and Local LLMs via Ollama. For optimal performance: Use the Claude 3 family of models.
+- 🧠 Advanced AI planning and reasoning capabilities
+- 🔍 Contextual keyword extraction for focused research
+- 🌐 Seamless web browsing and information gathering
+- 💻 Code writing in multiple programming languages
+- 📊 Dynamic agent state tracking and visualization
+- 💬 Natural language interaction via chat interface
+- 📂 Project-based organization and management
+- 🔌 Extensible architecture for adding new features and integrations
+
+
+## `r fontawesome::fa("laptop-code")` Demo!
+
+![](https://media1.tenor.com/m/y2JXkY1pXkwAAAAC/cat-computer.gif){fig-align="center"}
+
+## Instalación en windows
+
+Les dejo el paso a paso para instalar Devika en windows:
+
+
+🔗 [Guía de instalación Devika - Windows](https://docs.google.com/document/d/1b9YiKBvydenMfW-dTYtut9KqjkAT1s8Bb8y30X78TNo){target="_blank"}
+
