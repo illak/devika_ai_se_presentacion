@@ -1,0 +1,20 @@
+.reveal .slide-logo {
+  height: 150px !important;
+  width: 150px !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+h1.title {
+  
+}
+
+p.subtitle {
+  /*background-color: black;*/
+  color: white;
+}
+
+div .quarto-title-author-name {
+  /*background-color: black;*/  
+  color: white;
+}
